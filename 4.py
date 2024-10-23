@@ -1,4 +1,11 @@
-x = 7
-while x <= 70:
-    print(x)
-    x +=  7
+x = 1
+
+
+tabuada = int(input("Digite um numero"))
+
+while x <=10:
+
+    resultado = tabuada  * x
+    x+=1
+    
+    print(resultado)
